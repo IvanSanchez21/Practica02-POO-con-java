@@ -82,7 +82,7 @@ public class Leon extends Terrestre implements Interfaz {
     public String moverse() {
         return super.getTipoAnimal() + " esta corriendo";
     }
-
+    
     @Override
     public String caminar() {
         return super.getTipoAnimal() + " esta caminando";
