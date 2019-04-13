@@ -85,6 +85,6 @@ public class Pulpo extends Acuatico implements Interfaz {
 
     @Override
     public String nadar() {
-        return super.getTipoAnimal() + " esta nadando.";
+        return super.getTipoAnimal() + " esta nadando muy veloz";
     }
 }
