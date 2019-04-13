@@ -65,7 +65,7 @@ public abstract class Terrestre extends Animal {
     public void setTamañoNariz(String tamañoNariz) {
         this.tamañoNariz = tamañoNariz;
     }
-
+    
     public abstract String caminar();
 
     @Override

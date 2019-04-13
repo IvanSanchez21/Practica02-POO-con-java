@@ -66,11 +66,11 @@ public abstract class Acuatico extends Animal {
         this.branquias = branquias;
     }
 
-    public abstract String nadar();
+    public abstract String caminar();
 
     @Override
     public String toString() {
-        return super.toString() + "Acuatico{" + "numbranquias=" + numbranquias + ", profundidad=" + profundidad + ", aletas=" + aletas + ", branquias=" + branquias + '}';
+        return super.toString() + "Terrestre{" + "numPatas=" + numPatas + ", colorPelaje=" + colorPelaje + ", tama\u00f1aOrejas=" + tamañaOrejas + ", tama\u00f1oNariz=" + tamañoNariz + '}';
     }
 
 }
