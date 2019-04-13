@@ -78,7 +78,7 @@ public class Avestruz extends Terrestre implements Interfaz {
         return super.getTipoAnimal() + " se esta moviendo";
 
     }
-
+    
     @Override
     public String emitirSonido() {
         return super.getTipoAnimal() + " esta haciendo sonidos";
