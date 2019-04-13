@@ -83,7 +83,6 @@ public class Tiburon extends Acuatico implements Interfaz {
         return super.getTipoAnimal() + " esta nadando muy rapido.";
     }
 
-    @Override
     public String nadar() {
         return super.getTipoAnimal() + " esta nadando muy veloz";
     }
